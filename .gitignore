@@ -1,2 +1,3 @@
-/Bug/Runtime
+*.htaccess
+/Bug/Runtime/
 /Bug/Common/Conf/config.php
