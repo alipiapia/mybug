@@ -1,5 +1,5 @@
 .htaccess
-Core/
+Bug/Core/
 Bug/Runtime/
-Bug/Common/Conf/
+Bug/Common/Conf/config.php
 Public/Uploads/
