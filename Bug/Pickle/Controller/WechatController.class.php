@@ -21,7 +21,7 @@ class WechatController extends Controller{
      * 所有发送到微信的消息都会推送到该操作
      * 所以，微信公众平台后台填写的api地址则为该操作的访问地址
      */
-    public function index($id = ''){
+    Public function index($id = ''){
         
         //调试
         try{
@@ -282,23 +282,23 @@ class WechatController extends Controller{
 
         switch ($type) {
             case 'image':
-                $filename = './asssets/wechat/image.jpg';
+                $filename = './Public/wechat/image.jpg';
                 $media    = $auth->materialAddMaterial($filename, $type);
                 break;
 
             case 'voice':
-                $filename = './asssets/wechat/voice.mp3';
+                $filename = './Public/wechat/voice.mp3';
                 $media    = $auth->materialAddMaterial($filename, $type);
                 break;
 
             case 'video':
-                $filename    = './asssets/wechat/video.mp4';
+                $filename    = './Public/wechat/video.mp4';
                 $discription = array('title' => '视频标题', 'introduction' => '视频描述');
                 $media       = $auth->materialAddMaterial($filename, $type, $discription);
                 break;
 
             case 'thumb':
-                $filename = './asssets/wechat/music.jpg';
+                $filename = './Public/wechat/music.jpg';
                 $media    = $auth->materialAddMaterial($filename, $type);
                 break;
             
