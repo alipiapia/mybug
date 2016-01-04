@@ -1,4 +1,5 @@
 .htaccess
 Core/
 Bug/Runtime/
+Bug/Common/Conf/
 Public/Uploads/
