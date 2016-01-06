@@ -1,5 +1,6 @@
 .htaccess
 Bug/Core/
 Bug/Runtime/
-Bug/Common/Conf/config.php
+Bug/Common/Conf/
 Public/Uploads/
+Public/wechat/
